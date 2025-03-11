@@ -1,0 +1,75 @@
+\contentsline {section}{\numberline {1}Introduction and Background}{4}{}%
+\contentsline {subsection}{\numberline {1.1}Introduction}{4}{}%
+\contentsline {subsection}{\numberline {1.2}Background}{4}{}%
+\contentsline {section}{\numberline {2}Aims and Requirements}{6}{}%
+\contentsline {subsection}{\numberline {2.1}Aims}{6}{}%
+\contentsline {subsection}{\numberline {2.2}Requirements}{6}{}%
+\contentsline {section}{\numberline {3}Design}{7}{}%
+\contentsline {subsection}{\numberline {3.1}System Architecture}{7}{}%
+\contentsline {subsection}{\numberline {3.2}Image Processing}{7}{}%
+\contentsline {subsection}{\numberline {3.3}Neural Network Model Design}{8}{}%
+\contentsline {subsection}{\numberline {3.4}Model Training}{9}{}%
+\contentsline {subsection}{\numberline {3.5}Website Architecture}{9}{}%
+\contentsline {subsubsection}{\numberline {3.5.1}Client-Side (Frontend)}{9}{}%
+\contentsline {subsubsection}{\numberline {3.5.2}Server-Side (Backend)}{10}{}%
+\contentsline {subsection}{\numberline {3.6}User Interface}{10}{}%
+\contentsline {subsection}{\numberline {3.7}Web Security}{10}{}%
+\contentsline {subsection}{\numberline {3.8}Data Structure}{11}{}%
+\contentsline {subsection}{\numberline {3.9}Error Handling}{11}{}%
+\contentsline {subsection}{\numberline {3.10}Workflow \& Summary}{12}{}%
+\contentsline {section}{\numberline {4}Implementation}{12}{}%
+\contentsline {subsection}{\numberline {4.1}Image Processing}{12}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}PDF Conversion}{13}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Answer Positioning}{13}{}%
+\contentsline {subsubsection}{\numberline {4.1.3}Image Rectification}{14}{}%
+\contentsline {subsubsection}{\numberline {4.1.4}Locate and crop the ID area}{15}{}%
+\contentsline {subsubsection}{\numberline {4.1.5}Cropping Answers}{15}{}%
+\contentsline {subsection}{\numberline {4.2}Dataset}{15}{}%
+\contentsline {subsubsection}{\numberline {4.2.1}Answer Dataset}{15}{}%
+\contentsline {subsubsection}{\numberline {4.2.2}Student ID Dataset}{16}{}%
+\contentsline {subsection}{\numberline {4.3}Model selection}{16}{}%
+\contentsline {subsubsection}{\numberline {4.3.1}Experiment Plan}{16}{}%
+\contentsline {subsubsection}{\numberline {4.3.2}Result}{16}{}%
+\contentsline {subsection}{\numberline {4.4}Model Implementation}{17}{}%
+\contentsline {subsubsection}{\numberline {4.4.1}Model Structure}{17}{}%
+\contentsline {subsubsection}{\numberline {4.4.2}WideBasicBlock:}{17}{}%
+\contentsline {subsubsection}{\numberline {4.4.3}WideResNet:}{18}{}%
+\contentsline {subsection}{\numberline {4.5}Model Training and Evaluation}{18}{}%
+\contentsline {subsubsection}{\numberline {4.5.1}Model Training:}{18}{}%
+\contentsline {subsubsection}{\numberline {4.5.2}Model Evaluation:}{19}{}%
+\contentsline {subsection}{\numberline {4.6}Optimization and Hyperparameter Tuning}{19}{}%
+\contentsline {subsubsection}{\numberline {4.6.1}Data Augmentation:}{19}{}%
+\contentsline {subsubsection}{\numberline {4.6.2}Hyperparameter Tuning:}{20}{}%
+\contentsline {subsubsection}{\numberline {4.6.3}SAM (Sharpness Aware Minimization) Optimizer}{20}{}%
+\contentsline {subsubsection}{\numberline {4.6.4}Learning Rate Scheduler}{22}{}%
+\contentsline {subsection}{\numberline {4.7}Automatic Grading and Output}{23}{}%
+\contentsline {subsubsection}{\numberline {4.7.1}Obtaining Master Answer}{23}{}%
+\contentsline {subsubsection}{\numberline {4.7.2}Validation}{24}{}%
+\contentsline {subsubsection}{\numberline {4.7.3}Grading and Output}{24}{}%
+\contentsline {subsection}{\numberline {4.8}Other Functional Implementation}{25}{}%
+\contentsline {subsubsection}{\numberline {4.8.1}Email Notification}{25}{}%
+\contentsline {subsubsection}{\numberline {4.8.2}Score Visualization}{25}{}%
+\contentsline {subsection}{\numberline {4.9}Website Implementation}{26}{}%
+\contentsline {subsubsection}{\numberline {4.9.1}Frontend Implementation}{26}{}%
+\contentsline {subsubsection}{\numberline {4.9.2}User Interface Design}{27}{}%
+\contentsline {subsubsection}{\numberline {4.9.3}Backend Framework}{27}{}%
+\contentsline {section}{\numberline {5}Testing and Evaluation}{28}{}%
+\contentsline {subsection}{\numberline {5.1}Model Performance}{28}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}Model Accuracy}{28}{}%
+\contentsline {subsubsection}{\numberline {5.1.2}Precision, Recall and F1 Score}{28}{}%
+\contentsline {subsubsection}{\numberline {5.1.3}Confusion Matrix}{29}{}%
+\contentsline {subsubsection}{\numberline {5.1.4}AUC-ROC Curve}{29}{}%
+\contentsline {subsubsection}{\numberline {5.1.5}Time Efficiency}{30}{}%
+\contentsline {subsection}{\numberline {5.2}Website Functionality}{30}{}%
+\contentsline {subsection}{\numberline {5.3}Deployment and Maintenance}{30}{}%
+\contentsline {subsubsection}{\numberline {5.3.1}Deployment}{30}{}%
+\contentsline {subsubsection}{\numberline {5.3.2}Maintenance}{30}{}%
+\contentsline {section}{\numberline {6}Ethical Considerations}{30}{}%
+\contentsline {section}{\numberline {7}Conclusions and Future Work}{32}{}%
+\contentsline {subsection}{\numberline {7.1}Conclusions}{32}{}%
+\contentsline {subsection}{\numberline {7.2}Future Work}{33}{}%
+\contentsline {section}{\numberline {8}BCS Project Criteria and Self-Reflection}{33}{}%
+\contentsline {section}{\numberline {9}Appendix}{36}{}%
+\contentsline {subsection}{\numberline {9.1}Image Pre-processing Code}{36}{}%
+\contentsline {subsection}{\numberline {9.2}ResNet Model Code}{38}{}%
+\contentsline {subsection}{\numberline {9.3}SAM Optimizer Code}{39}{}%

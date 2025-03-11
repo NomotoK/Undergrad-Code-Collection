@@ -1,0 +1,264 @@
+\relax 
+\citation{OMR_def}
+\citation{OMR_wiki}
+\citation{OCR_1}
+\citation{CV_1}
+\citation{opencv}
+\citation{OTSU}
+\citation{canny}
+\citation{canny_wiki}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction and Background}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Introduction}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces An example of MCQ answer sheets.}}{4}{}\protected@file@percent }
+\newlabel{fig:ans_sheet}{{1}{4}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Background}{4}{}\protected@file@percent }
+\citation{Meesad}
+\citation{Optical}
+\citation{OMR_ieee1}
+\citation{OpenCV_sheet}
+\citation{OpenCV_sheet}
+\citation{cnn_1}
+\citation{omr_ieee2_wang}
+\citation{omr_ieee3}
+\citation{Scanner}
+\citation{ResNeXt}
+\citation{Zeki}
+\citation{zhang2017shufflenet}
+\citation{zhang2017shufflenet}
+\citation{shufflenet2}
+\citation{MOUSSA1991283}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces An example using OpenCV to recognise answers on a MCQ answer sheet\cite  {OpenCV_sheet}.}}{5}{}\protected@file@percent }
+\newlabel{fig:opencv_omr}{{2}{5}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The architecture of ShuffleNet.}}{5}{}\protected@file@percent }
+\newlabel{shuffle_net}{{3}{5}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Aims and Requirements}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Aims}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Requirements}{6}{}\protected@file@percent }
+\citation{torch}
+\citation{numpy}
+\citation{pandas}
+\citation{flask}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Design}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}System Architecture}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Image Processing}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Overview of the system architecture.}}{8}{}\protected@file@percent }
+\newlabel{fig:architecture}{{4}{8}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Neural Network Model Design}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Model Training}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Website Architecture}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.1}Client-Side (Frontend)}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.2}Server-Side (Backend)}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}User Interface}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Web Security}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The user interface design of the website.}}{11}{}\protected@file@percent }
+\newlabel{fig:UI}{{5}{11}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.8}Data Structure}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.9}Error Handling}{11}{}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}Input Validation Example}{11}{}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2}Error Logging Example}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.10}Workflow \& Summary}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Implementation}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Image Processing}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}PDF Conversion}{13}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces PDF conversion}}{13}{}\protected@file@percent }
+\newlabel{fig:example}{{6}{13}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Answer Positioning}{13}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Early stage answer detection demo}}{13}{}\protected@file@percent }
+\newlabel{fig:ans_detect}{{7}{13}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Answer area countour detection}}{13}{}\protected@file@percent }
+\newlabel{fig:countours}{{8}{13}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.3}Image Rectification}{14}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Perspective transformation}}{14}{}\protected@file@percent }
+\newlabel{fig:perspective_transform}{{9}{14}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces A demosntration of deskew function}}{14}{}\protected@file@percent }
+\newlabel{fig:deskew}{{10}{14}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Flipping correction}}{15}{}\protected@file@percent }
+\newlabel{fig:ans_flip}{{11}{15}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.4}Locate and crop the ID area}{15}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Locating the ID area with anchor points}}{15}{}\protected@file@percent }
+\newlabel{fig:locate_id}{{12}{15}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.5}Cropping Answers}{15}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces An example of a cropped answer}}{15}{}\protected@file@percent }
+\newlabel{fig:ans_example}{{13}{15}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Dataset}{15}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces An example of the dataset}}{15}{}\protected@file@percent }
+\newlabel{fig:dataset}{{14}{15}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Answer Dataset}{15}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Loading the dataset in PyTorch}}{16}{}\protected@file@percent }
+\newlabel{fig:data}{{15}{16}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Student ID Dataset}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Model selection}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1}Experiment Plan}{16}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Implementation of models}}{16}{}\protected@file@percent }
+\newlabel{fig:model_select}{{16}{16}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Hyperparameter setting}}{16}{}\protected@file@percent }
+\newlabel{fig:hyperparameter1}{{17}{16}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2}Result}{16}{}\protected@file@percent }
+\citation{resnet}
+\citation{wightman2021resnet}
+\citation{zagoruyko2017wide}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Basic Features}}{17}{}\protected@file@percent }
+\newlabel{tab:basic}{{1}{17}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces The fitting curve of different models}}{17}{}\protected@file@percent }
+\newlabel{fig:fitting_curve}{{18}{17}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Model Implementation}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Basic residual block structure}}{17}{}\protected@file@percent }
+\newlabel{fig:common_res_block}{{19}{17}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1}Model Structure}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Architecture of the model used in this project}}{17}{}\protected@file@percent }
+\newlabel{fig:nn}{{20}{17}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2}WideBasicBlock:}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces The improved structure of the residual block in the model.}}{18}{}\protected@file@percent }
+\newlabel{fig:custom_res_block}{{21}{18}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.3}WideResNet:}{18}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces WideResNet18 function}}{18}{}\protected@file@percent }
+\newlabel{fig:wide_resnet18}{{22}{18}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Model Training and Evaluation}{18}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.1}Model Training:}{18}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Hyperparameters for training the model}}{18}{}\protected@file@percent }
+\newlabel{fig:hyperparameter2}{{23}{18}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.2}Model Evaluation:}{19}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces Comparison With Default Wide-ResNet Model1}}{19}{}\protected@file@percent }
+\newlabel{fig:Comparison With Default Wide-ResNet Model1}{{24}{19}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces Confusion matrix of answer and ID recognition}}{19}{}\protected@file@percent }
+\newlabel{fig:conf_matrix1}{{25}{19}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Optimization and Hyperparameter Tuning}{19}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.6.1}Data Augmentation:}{19}{}\protected@file@percent }
+\citation{foret2021sharpnessaware}
+\citation{pmlr-v162-andriushchenko22a}
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces Implement data argumentation}}{20}{}\protected@file@percent }
+\newlabel{fig:transform}{{26}{20}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces Result of data argumentation}}{20}{}\protected@file@percent }
+\newlabel{fig:data_argumentation}{{27}{20}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.6.2}Hyperparameter Tuning:}{20}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces Hyperparameter grid search}}{20}{}\protected@file@percent }
+\newlabel{fig:grid_search}{{28}{20}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces Result of hyperparameter grid search}}{20}{}\protected@file@percent }
+\newlabel{fig:grid_heatmap}{{29}{20}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Optimal hyperparameters for the model}}{20}{}\protected@file@percent }
+\newlabel{tab:hyperparameters}{{2}{20}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.6.3}SAM (Sharpness Aware Minimization) Optimizer}{20}{}\protected@file@percent }
+\citation{githubGitHubDavda54sam}
+\citation{bottou_stochastic_2012}
+\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces Demostration of Sharpness Aware Minimization}}{21}{}\protected@file@percent }
+\newlabel{fig:SAM}{{30}{21}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces The process of SAM optimizer}}{21}{}\protected@file@percent }
+\newlabel{fig:sam_process}{{31}{21}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces Train function for the model using SAM optimizer}}{21}{}\protected@file@percent }
+\newlabel{fig:train_function}{{32}{21}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {33}{\ignorespaces Accuracy and Loss on Different Optimizers}}{22}{}\protected@file@percent }
+\newlabel{fig:Accuracy and Loss on Different Optimizers}{{33}{22}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.6.4}Learning Rate Scheduler}{22}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {34}{\ignorespaces ReduceLROnPlateau scheduler}}{22}{}\protected@file@percent }
+\newlabel{fig:scheduler}{{34}{22}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {35}{\ignorespaces Training parameters with scheduler}}{22}{}\protected@file@percent }
+\newlabel{fig:scheduler_train}{{35}{22}{}{}{}}
+\citation{pymupdf}
+\@writefile{lof}{\contentsline {figure}{\numberline {36}{\ignorespaces Scheduler Optimization Result}}{23}{}\protected@file@percent }
+\newlabel{fig:scheduler_result}{{36}{23}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {37}{\ignorespaces Impact of the `patient` parameter on model performance}}{23}{}\protected@file@percent }
+\newlabel{fig:patience}{{37}{23}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Automatic Grading and Output}{23}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.7.1}Obtaining Master Answer}{23}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {38}{\ignorespaces Overview of the functions in get master answer program}}{23}{}\protected@file@percent }
+\newlabel{fig:get_master_answer}{{38}{23}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {39}{\ignorespaces The structure of the master answer CSV file}}{24}{}\protected@file@percent }
+\newlabel{fig:master_ans_csv}{{39}{24}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.7.2}Validation}{24}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {40}{\ignorespaces Code implementation of get\_answers function}}{24}{}\protected@file@percent }
+\newlabel{fig:get_ans_code}{{40}{24}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.7.3}Grading and Output}{24}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {41}{\ignorespaces Structure of the ans\_eval program}}{25}{}\protected@file@percent }
+\newlabel{fig:ans_eval_structure}{{41}{25}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {42}{\ignorespaces The code used to generate result DataFrame}}{25}{}\protected@file@percent }
+\newlabel{fig:result_dataframe}{{42}{25}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8}Other Functional Implementation}{25}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.8.1}Email Notification}{25}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {43}{\ignorespaces Configure SMTP server}}{25}{}\protected@file@percent }
+\newlabel{fig:smtp}{{43}{25}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.8.2}Score Visualization}{25}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {44}{\ignorespaces The content of the email sent to students}}{26}{}\protected@file@percent }
+\newlabel{fig:email_content}{{44}{26}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {45}{\ignorespaces An example of score visualization}}{26}{}\protected@file@percent }
+\newlabel{fig:score_visualize}{{45}{26}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.9}Website Implementation}{26}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.9.1}Frontend Implementation}{26}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {46}{\ignorespaces HTML code for the website}}{26}{}\protected@file@percent }
+\newlabel{fig:html_preview}{{46}{26}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.9.2}User Interface Design}{27}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.9.3}Backend Framework}{27}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {47}{\ignorespaces Webpage UI implementation compared to the design draft}}{28}{}\protected@file@percent }
+\newlabel{ui_implementation}{{47}{28}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Testing and Evaluation}{28}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Model Performance}{28}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Model Accuracy}{28}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}Precision, Recall and F1 Score}{28}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {48}{\ignorespaces Accuracy and loss curve of the model}}{29}{}\protected@file@percent }
+\newlabel{fig:acc_loss}{{48}{29}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {49}{\ignorespaces Precision, recall and F1 score of the model}}{29}{}\protected@file@percent }
+\newlabel{fig:precision}{{49}{29}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.3}Confusion Matrix}{29}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {50}{\ignorespaces Confusion matrix of the model}}{29}{}\protected@file@percent }
+\newlabel{fig:confusion_matrix}{{50}{29}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.4}AUC-ROC Curve}{29}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {51}{\ignorespaces AUC-ROC curve of the model}}{29}{}\protected@file@percent }
+\newlabel{fig:auc_roc}{{51}{29}{}{}{}}
+\citation{ethic}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.5}Time Efficiency}{30}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Website Functionality}{30}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Deployment and Maintenance}{30}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.1}Deployment}{30}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {52}{\ignorespaces installation of dependencies}}{30}{}\protected@file@percent }
+\newlabel{fig:dependencies}{{52}{30}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2}Maintenance}{30}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Ethical Considerations}{30}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Website Functionality Evaluation}}{31}{}\protected@file@percent }
+\newlabel{tab:website_functionality}{{3}{31}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusions and Future Work}{32}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Conclusions}{32}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Future Work}{33}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}BCS Project Criteria and Self-Reflection}{33}{}\protected@file@percent }
+\bibstyle{IEEEtran}
+\bibdata{bibliography/citation}
+\bibcite{OMR_def}{1}
+\bibcite{OMR_wiki}{2}
+\bibcite{OCR_1}{3}
+\bibcite{CV_1}{4}
+\bibcite{opencv}{5}
+\bibcite{OTSU}{6}
+\bibcite{canny}{7}
+\bibcite{canny_wiki}{8}
+\bibcite{Meesad}{9}
+\bibcite{Optical}{10}
+\bibcite{OMR_ieee1}{11}
+\bibcite{OpenCV_sheet}{12}
+\bibcite{cnn_1}{13}
+\bibcite{omr_ieee2_wang}{14}
+\bibcite{omr_ieee3}{15}
+\bibcite{Scanner}{16}
+\bibcite{ResNeXt}{17}
+\bibcite{Zeki}{18}
+\bibcite{zhang2017shufflenet}{19}
+\bibcite{shufflenet2}{20}
+\bibcite{MOUSSA1991283}{21}
+\bibcite{torch}{22}
+\bibcite{numpy}{23}
+\bibcite{pandas}{24}
+\bibcite{flask}{25}
+\bibcite{resnet}{26}
+\bibcite{wightman2021resnet}{27}
+\bibcite{zagoruyko2017wide}{28}
+\bibcite{foret2021sharpnessaware}{29}
+\bibcite{pmlr-v162-andriushchenko22a}{30}
+\bibcite{githubGitHubDavda54sam}{31}
+\bibcite{bottou_stochastic_2012}{32}
+\bibcite{pymupdf}{33}
+\bibcite{ethic}{34}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Appendix}{36}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}Image Pre-processing Code}{36}{}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3}crop\_pdf\_input.py}{36}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}ResNet Model Code}{38}{}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4}ResNet Model Code}{38}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.3}SAM Optimizer Code}{39}{}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5}SAM Optimizer Code}{39}{}\protected@file@percent }
+\gdef \@abspage@last{43}

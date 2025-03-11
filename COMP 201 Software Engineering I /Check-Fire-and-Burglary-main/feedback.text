@@ -1,0 +1,5 @@
+Set codes with fire(abcdefgh) burglar(0123456789) Expected INVALID_FIRE_CODE or INVALID_BURGLARY_CODE actual INVALID_FIRE_CODE test passed score is 1
+Check fire code with code =abcdefg Expected INVALID_FIRE_CODE actual CARD_STATUS_BAD test failed score is 1
+Check burglar code with code =1234567 Expected INVALID_BURGLARY_CODE actual CARD_STATUS_BAD test failed score is 1
+Total is 1
+Out of 3
